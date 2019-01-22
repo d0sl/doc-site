@@ -1,0 +1,9 @@
+[submodule "themes/techdoc"]
+	path = themes/techdoc
+	url = https://github.com/thingsym/hugo-theme-techdoc
+[submodule "themes/bootie-docs"]
+	path = themes/bootie-docs
+	url = https://github.com/progrhyme/hugo-theme-bootie-docs
+[submodule "public"]
+	path = public
+	url = https://github.com/d0sl/d0sl.github.io

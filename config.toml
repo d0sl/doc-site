@@ -1,0 +1,4 @@
+baseURL = "http://d0sl.github.io"
+languageCode = "en-us"
+title = "Documentation Site"
+# theme = "bootie-docs"
