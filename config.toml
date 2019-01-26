@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "D0SL Documentation"
+title = "D0SL Semantic Platform"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir= true
   ordersectionsby = "weight"
   
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "green"
+  themeVariant = "red"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -57,7 +57,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 # English language
 [Languages.en]
-title = "Documentation for D0SL Delta Zero Semantic Language"
+title = "D0SL Semantic Platform"
 weight = 1
 languageName = "English"
 
@@ -75,7 +75,7 @@ weight = 30
 # Russian language
 
 [Languages.ru]
-title = "Документация по Языку Семантического моделирования D0SL"
+title = "Семантичеcкая платформа D0SL"
 weight = 2
 languageName = "Русский"
 

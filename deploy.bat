@@ -1,7 +1,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rem Build the project. if using a theme, replace with `hugo -t <YOURTHEME>`
-hugo -t techdoc -c content -b "https://d0sl.github.io"
+hugo
 
 rem Go To Public folder
 cd public
