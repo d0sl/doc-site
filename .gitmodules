@@ -7,3 +7,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/d0sl/d0sl.github.io
+[submodule "themes/dot"]
+	path = themes/dot
+	url = https://github.com/gethugothemes/dot-hugo-documentation-theme
