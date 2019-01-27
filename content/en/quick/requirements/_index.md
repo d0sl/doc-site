@@ -7,7 +7,7 @@ So, our main goal is to give a person the opportunity to describe logical rules 
 
 For this, we should to implement the language, as well as provide a convenient editor (or IDE Integrated Development Environment) that would allow to create D0SL documents and even immediately run.
 
-There are various ways to reach this, but we choosed as a bases the powerfull Jetbrains MPS (Meta Programming System). 
+There are various ways to reach this, but we chose as a bases the powerfull Jetbrains MPS (Meta Programming System). 
 
 {{% notice note %}}
 You should preinstall it from [here](https://www.jetbrains.com/mps/download)

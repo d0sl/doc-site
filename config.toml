@@ -60,6 +60,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "D0SL Semantic Platform"
 weight = 1
 languageName = "English"
+contentDir = "content/en"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github repo"
@@ -78,4 +79,6 @@ weight = 30
 title = "Семантичеcкая платформа D0SL"
 weight = 2
 languageName = "Русский"
+contentDir = "content/ru"
+
 
