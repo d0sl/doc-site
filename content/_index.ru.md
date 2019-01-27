@@ -4,4 +4,4 @@ title: "Язык Семантического моделирования D0SL"
 
 # Страница находится в стадии разработки
 
-![В разработке](/images/under-construction.jpg)
+![В разработке](/images/under-construction.jpg?classes=shadow)

@@ -18,7 +18,7 @@ Remember the three Laws of Robotics which govern the behaviour of Isaac Asimov's
 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
 
 This is exactly what we want to turn into reality!
-![Industrial revolution](/images/industrial-revolution.png?classes=shadow&height=400px)
+![Industrial revolution](/images/industrial-revolution.png?classes=shadow)
 
 Now there is a new industrial revolution. Neural networks drive a car instead of a person. Complex mechanisms and systems work longer and longer without human participation.
 
