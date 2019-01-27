@@ -30,6 +30,11 @@ Our project is to help humanity to control artificial intelligence, autonomous s
 
 {{<mermaid align="left">}}
 graph TB
+    subgraph Or even embedding
+    c1[fa:fa-robot Robot]-->c2[fa:fa-car Car]
+    c3[fa:fa-user Human logic]-->c4[fa:fa-brain D0SL]
+    c4-->c1
+    end
     subgraph With D0SL control
     a1[fa:fa-robot Robot]-->a2[fa:fa-brain D0SL]
     a4[fa:fa-user Human logic]-->a2[fa:fa-brain D0SL]
