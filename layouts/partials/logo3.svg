@@ -1,5 +1,5 @@
-<a id="logo" href="/">
-   <svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -54,7 +54,7 @@
        id="tspan4153"
        sodipodi:role="line"
        dx="0 0"
-       dy="0 0.10999999"> D0SL</tspan></text>
+       dy="0 0.10999999"> LEARN D0SL</tspan></text>
 <g
      id="g8170"
      transform="translate(-5.1957769,0.7876521)"
@@ -104,4 +104,3 @@
            style="fill:#ffffff;fill-rule:evenodd"
            id="path7941"
            inkscape:connector-curvature="0" /></g></g></g></svg>
-</a>
