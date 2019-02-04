@@ -1,8 +1,8 @@
 ---
-title: "Learn D0SL Semantic Platform"
+title: "Learn d0sl Semantic Platform"
 ---
 
-# Learn D0SL Semantic Platform
+## Learn d0sl Semantic Platform
 
 Our goal is to develop a platform for automatic decision making based on a semantic approach.
 
@@ -32,12 +32,12 @@ Our project is to help humanity to control artificial intelligence, autonomous s
 graph TB
     subgraph Or even embedding
     c1[fa:fa-robot Robot]-->c2[fa:fa-car Car]
-    c3[fa:fa-user Human logic]-->c4[fa:fa-brain D0SL]
+    c3[fa:fa-user Human logic]-->c4[fa:fa-brain d0sl]
     c4-->c1
     end
-    subgraph With D0SL control
-    a1[fa:fa-robot Robot]-->a2[fa:fa-brain D0SL]
-    a4[fa:fa-user Human logic]-->a2[fa:fa-brain D0SL]
+    subgraph With d0sl control
+    a1[fa:fa-robot Robot]-->a2[fa:fa-brain d0sl]
+    a4[fa:fa-user Human logic]-->a2[fa:fa-brain d0sl]
     a2-->a3[fa:fa-car Car]
     end
     subgraph Lone neural robot

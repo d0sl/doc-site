@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "D0SL Semantic Platform"
+title = "d0sl Semantic Platform"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
@@ -57,7 +57,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 # English language
 [Languages.en]
-title = "D0SL Semantic Platform"
+title = "d0sl Semantic Platform"
 weight = 1
 languageName = "English"
 contentDir = "content/en"
