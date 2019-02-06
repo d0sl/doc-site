@@ -16,7 +16,7 @@ weight = 20
 For example,  the next expressions are equivalent. 
 
 ```
-A and B and C and D and E
+A and B and C and D
 ```
 
 ```
