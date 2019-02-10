@@ -35,7 +35,7 @@ In _AutodromAII_ example you can see how semantic model specifies pure logical r
 
 `d0sl` stands for \\( \Delta_0 \\) (_delta zero_)Semantiс Language. (See `d0sl` syntax [here]({{< ref "/d0sl/_index.md" >}}) ). `d0sl` is a declarative executable specifications language, which is a constructive subset of the first order predicate logic language. You can find mathematical definition of \\( \Delta_0 \\)-formulas [here]({{< ref "/d0sl/delta0_math_def.md" >}}).  If you are interested in math theory behind please check this [list of articles] ({{< ref "/d0sl/articles.md" >}})
 
-`d0sl` effectively represents an **AI 2.0** platform for **automomous decision making** systems based on a semantic modelling approach.
+`d0sl` effectively represents an **AI 2.0** platform for **autonomous decision making** systems based on a semantic modelling approach.
 
 Main components of `d0sl` platform:
 
