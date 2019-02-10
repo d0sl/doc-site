@@ -31,16 +31,16 @@ So the idea behind **semantic modelling** is how to make it simpler for _non-pro
 
 In _AutodromAII_ example you can see how semantic model specifies pure logical rules for autonomous cars. 
 
-# Learn `d0sl` platform
+## Learn `d0sl` platform
 
-`d0sl` stands for \\( \Delta_0 \\) (_delta zero_)Semantiс Language. `d0sl` effectively represents a declarative executable specifications language, which is a constructive subset of the first order predicate logic language. If you are interested in math theory behind please check this list of articles [TBD]
+`d0sl` stands for \\( \Delta_0 \\) (_delta zero_)Semantiс Language. (See `d0sl` syntax [here]({{< ref "/d0sl/_index.md" >}}) ). `d0sl` is a declarative executable specifications language, which is a constructive subset of the first order predicate logic language. You can find mathematical definition of \\( \Delta_0 \\)-formulas [here]({{< ref "/d0sl/delta0_math_def.md" >}}).  If you are interested in math theory behind please check this [list of articles] ({{< ref "/d0sl/articles.md" >}})
 
 `d0sl` effectively represents an **AI 2.0** platform for **automomous decision making** systems based on a semantic modelling approach.
 
 Main components of `d0sl` platform:
 
 1. **d0sl core** engine which executes _semantic models_
-2. **d0sl SDK** (semantic definition kit) -- an _IDE_ for creating semantic models, which also includes examples
+2. **d0sl SDK** (semantic definition kit) -- an _IDE_ for creating semantic models, which also includes `d0sl` examples
 3. other _tools_ and **domain models**
 
 You can think of `d0sl` as a logical semantic operating system which can execute _semantic models_ written in a logical language. As any OS `d0sl` needs _drivers_ to communicate with an environment: such drivers we call _domain models_.
