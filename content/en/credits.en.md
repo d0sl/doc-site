@@ -5,6 +5,4 @@ disableToc: true
 
 ## Contributors
 
-
-
-{{% ghcontributors "https://api.github.com/orgs/d0sl/members?per_page=100" %}}
+{{% ghcontributors "https://api.github.com/orgs/d0sl/members" %}}
