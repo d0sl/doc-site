@@ -5,6 +5,6 @@ disableToc: true
 
 ## Contributors
 
-Thanks to them <i class="fas fa-heart"></i> for making Open Source Software a better place !
 
-{{% ghcontributors "https://api.github.com/repos/kirikprotocol/examples-d0sl/contributors?per_page=100" %}}
+
+{{% ghcontributors "https://api.github.com/orgs/d0sl/members?per_page=100" %}}
