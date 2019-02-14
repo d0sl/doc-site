@@ -2,27 +2,43 @@
 title: "d0sl"
 ---
 
-## `d0SL` -- Delta`0` Semantic Language
+## d0sl: Delta 0 Semantic Language
 
-`d0SL` effectively represents an **AI 2.0** platform for **autonomous decision making** systems based on a semantic modelling approach.
+**d0sl** is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE's d0sl allows you to implement business logic of you system by using declarative logical specifications language. 
 
-Main components of `d0SL` platform:
+> _There are several important advantages over traditional BRE:_
 
-1. `d0VM` -- semantic virtual machine which executes _semantic models_ written in `d0SL` language
-2. `d0SDK`  -- an _IDE_ for creating semantic models, which also includes `d0SL` examples
-3. other _tools_ and *domain models*
+> d0sl has very simple purely logical syntax, which does not require any programming skills from users who use it to specify business logic. Which any one who has basic understanding of logic can start using it in a matter of several hours unlike other BRE, which require significant investment of time to learn and special programming skills to understand and write business rules.
 
-{{% notice tip %}}
-You can think of `d0SL` as a logical semantic operating system which can execute _semantic models_ written in a logical language. As any OS `d0SL` needs _drivers_ to communicate with an environment: such drivers are called **domain models**.
+> d0sl scales from embedded systems to enterprise level. Its footprint is very lightweight and can be deployed even on embedded systems like Raspberry PI. On the other hand, d0sl can be used on enterprise level (we have carrier grade version of d0sl called Eyeline SDP, which is used by several mobile telcos, banks etc).
+
+> d0sl has very clear intuitive semantics for non programmers, because d0sl is based on a pure Delta 0 subset of first order predicate logic and has mathematically proven semantic. Unlike d0sl other BRE's have non clear semantic which makes them much more difficult to use.
+
+> d0sl allows to create DSL's (domain specific languages) which can be used to create business rules not only by your employees, but also by your end users.  
+
+> d0sl provides IDE our of the box, which simplifies creation of logical rules. We supply this in a form of d0sl plugin for JetBrains MPS. This simplifies the creation of semantic logical models because this plugin helps the user to create syntactically correct semantic models.
+
+> d0sl allows easy integration with your existing software by implementing integration drivers (so called domain models).
+
+> d0sl allows to implement one set of logical rules on top of the other sets of logical rules (a set of logical rules are called semantic model). This allows to increase level of abstraction as much as you need. And this is important for you to create a Domain Specific Language for your users/employees which is easy to learn and easy to use.
+
+Main components of d0sl:
+
+1. d0sl language itself
+1. d0VM -- semantic virtual machine which executes _semantic models_ written in d0sl language
+1. d0SDK  -- an _IDE_ for creating semantic models, which also includes d0sl examples
+1. Domain models (or so called drivers) that serves to link the language with external systems, and allow you to define logical rules, using terms of the subject area.
+
+{{% notice note %}}
+We like the word d0sl and we will use it both for the language and for the system as a whole, or even for the components mentioned above. The meaning should be clear from the context , for example, d0sl language, d0sl virtual machine etc.
 {{% /notice %}}
 
-## Revolution of autonomization
+{{% notice tip %}}
+You can think of d0sl as a logical operating system which can execute _semantic models_ written in d0sl language. As any OS d0sl needs _drivers_ to communicate with an environment: such drivers in d0sl are called **domain models**. Another similar analogy is the JDBC drivers, which connect to the database.
+{{% /notice %}}
 
-Several new advancements in technology drive the next industrial revolution:
-1. AI 1.0 technology: _object recognition_, _machine learning_ and _neural networks_
-1. _IoT_  - Internet of Things
-1. _Edge Computing_: process data into information on the edge, instead of uploading big data into clouds
-1. AI 2.0 technology: _semantic modelling_ and _ontologies_ allow to process information into _knowledge_
+{{%expand "How d0sl can save humanity from robots rebellion?" %}}
+## The industrial revolution has us to belive in the science fiction
 
 {{% notice note %}}
 Remember the three Laws of Robotics which govern the behaviour of Isaac Asimov's fictional Positronic Robots were formally stated by Asimov in his story "Runaround" (March 1942):{{% /notice %}}
@@ -33,31 +49,18 @@ Remember the three Laws of Robotics which govern the behaviour of Isaac Asimov's
 
 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
 
-This is exactly what we want to turn into reality!
-![Industrial revolution](/images/industrial-revolution.png)
+New industrial revolution begins now. 
 
-Now there is a new industrial revolution. Neural networks drive a car instead of a person. Complex mechanisms and systems work longer and longer without human participation.
+- Neural networks drive a car instead of a person. 
+- Complex mechanisms and systems work longer and longer without human participation.
+- We face robots more and more often.
 
 But there is a recognized problem in the field of artificial intelligence. Namely the black box problem. Even a neural network technician does not know what is going on inside.
 
+Who is responsible for robots? Who controls them if programmers and datasсientists cannot understand the algorithms by which artifitial intelligince operates?
+
 {{% notice tip %}}
-Our project is to help humanity to control artificial intelligence, autonomous systems (or even business processes) by using understandable domain specific language and human logic.
+d0sl technology can be embedded in AI, IoT, autonomous systems of any complexity. In this case, it becomes possible to determine the logical rules of the behavior of such systems in a clear language of human logic. For example, so can be implemented the three Laws of Robotics.
 {{% /notice %}}
 
-{{<mermaid align="left">}}
-graph TB
-    subgraph Or even embedding
-    c1[fa:fa-robot Robot]-->c2[fa:fa-car Car]
-    c3[fa:fa-user Human logic]-->c4[fa:fa-brain d0SL]
-    c4-->c1
-    end
-    subgraph With d0SL control
-    a1[fa:fa-robot Robot]-->a2[fa:fa-brain d0SL]
-    a4[fa:fa-user Human logic]-->a2[fa:fa-brain d0SL]
-    a2-->a3[fa:fa-car Car]
-    end
-    subgraph Lone neural robot
-    b1[fa:fa-robot Robot]-->b2[fa:fa-car Car]
-    end
-
-{{< /mermaid >}}
+{{% /expand%}}
