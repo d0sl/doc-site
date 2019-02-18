@@ -24,7 +24,7 @@ In predicate 'start' of TrelloBoard semantic model you can see call to domain fu
 ### How to get *app key* and *access_token* for your own trello board
 1. First, you need to get *app key*. To do this:
     - Login to trello
-    - Go to [https://trello.com/app-key](https://trello.com/app-key)
+    - Go to [https://trello.com/app-key](https://trello.com/app-key) (**WARNING!!** You ***must*** set `scope` to `read,write` and `expiration` to `never` in url.)
     - Save your api *app key* and put it into the first argument 
 2. Then you need get *access_token*. Here is the guide on how to get it [here](https://developers.trello.com/page/authorization).
 3. You can get *board id* from your board’s  URL. For example, d0sl sample’s trello board URL is ```https://trello.com/b/r0W9zMhZ/d0sl-sample-project```, and *board id* is ```r0W9zMhZ```
