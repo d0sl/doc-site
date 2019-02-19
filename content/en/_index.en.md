@@ -2,7 +2,7 @@
 title: "d0sl"
 ---
 
-## `d0SL`: Delta Zero Semantic Language
+## `d0SL`: Delta Zero Semantic Language Привет
 
 **`d0SL`** is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE's `d0SL` allows you to implement business logic of you system by using declarative logical specifications language. 
 
