@@ -4,7 +4,7 @@ title: "d0sl"
 
 ## `d0SL`: Delta Zero Semantic Language
 
-**`d0SL`** is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE's `d0SL` allows you to implement business logic of you system by using declarative logical specifications language. 
+**`d0SL`** is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE's `d0SL` allows you to implement business logic of your system by using declarative logical specifications language. 
 
 {{% notice note %}}
 Main components of `d0SL`:
@@ -19,19 +19,19 @@ Main components of `d0SL`:
 
 ### There are several important advantages over traditional BRE:
 
-> 1. `d0SL` has very simple purely logical syntax, which does not require any programming skills from users who use it to specify business logic. Which any one who has basic understanding of logic can start using it in a matter of several hours unlike other BRE, which require significant investment of time to learn and special programming skills to understand and write business rules.
+> 1. `d0SL` has very simple purely logical syntax, which does not require any programming skills from users who use it to specify business logic. Everyone who has basic understanding of logic can start using it in a matter of several hours unlike other BREs, which require significant investment of time to learn and special programming skills to understand and write business rules.
 
 > 2. `d0SL` scales from embedded systems to enterprise level. Its footprint is very lightweight and can be deployed even on embedded systems like Raspberry PI. On the other hand, `d0SL` can be used on enterprise level (we have carrier grade version of `d0SL` called Eyeline SDP, which is used by several mobile telcos, banks etc).
 
-> 3. `d0SL` has very clear intuitive semantics for non programmers, because `d0SL` is based on a pure Delta 0 subset of first order predicate logic and has mathematically proven semantic. Unlike `d0SL` other BRE's have non clear semantic which makes them much more difficult to use.
+> 3. `d0SL` has very clear intuitive semantics for non programmers, because `d0SL` is based on a pure Delta 0 subset of first order predicate logic and has mathematically proven semantics. Unlike `d0SL` other BREs have non clear semantics which makes them much more difficult to use.
 
-> 4. `d0SL` allows to create DSL's (domain specific languages) which can be used to create business rules not only by your employees, but also by your end users.  
+> 4. `d0SL` allows to create DSLs (domain specific languages) which can be used to create business rules not only by your employees, but also by your end users.  
 
-> 5. `d0SL` provides IDE our of the box, which simplifies creation of logical rules. We supply this in a form of `d0SL` plugin for JetBrains MPS. This simplifies the creation of semantic logical models because this plugin helps the user to create syntactically correct semantic models.
+> 5. `d0SL` provides IDE out of the box, which simplifies creation of logical rules. We supply this in a form of `d0SL` plugin for JetBrains MPS. This simplifies the creation of semantic logical models because this plugin helps the user to create syntactically correct semantic models.
 
 > 6. `d0SL` allows easy integration with your existing software by implementing integration drivers (so called domain models).
 
-> 7. `d0SL` allows to implement one set of logical rules on top of the other sets of logical rules (a set of logical rules are called semantic model). This allows to increase level of abstraction as much as you need. And this is important for you to create a Domain Specific Language for your users/employees which is easy to learn and easy to use.
+> 7. `d0SL` allows to implement one set of logical rules on top of the other sets of logical rules (a set of logical rules is called semantic model). In turn this allows to increase level of abstraction as much as you need. And this is important for you to create a Domain Specific Language for your users/employees which is easy to learn and easy to use.
 
 
 
@@ -47,7 +47,7 @@ You can think of `d0SL` as a logical operating system which can execute _semanti
 ## The industrial revolution has us to belive in the science fiction
 
 {{% notice note %}}
-Remember the three Laws of Robotics which govern the behaviour of Isaac Asimov's fictional Positronic Robots were formally stated by Asimov in his story "Runaround" (March 1942):{{% /notice %}}
+Remember the three Laws of Robotics which govern the behaviour of Isaac Asimov's fictional Positronic Robots. They were formally stated by Asimov in his story "Runaround" (March 1942):{{% /notice %}}
 
 1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 
@@ -66,7 +66,7 @@ But there is a recognized problem in the field of artificial intelligence. Namel
 Who is responsible for robots? Who controls them if programmers and datasсientists cannot understand the algorithms by which artifitial intelligince operates?
 
 {{% notice tip %}}
-`d0SL` technology can be embedded in AI, IoT, autonomous systems of any complexity. In this case, it becomes possible to determine the logical rules of the behavior of such systems in a clear language of human logic. For example, so can be implemented the three Laws of Robotics.
+`d0SL` technology can be embedded in AI, IoT, autonomous systems of any complexity. In this case, it becomes possible to determine the logical rules of the behavior of such systems in a clear language of human logic. For example, it can implement the three Laws of Robotics.
 {{% /notice %}}
 
 {{% /expand%}}
