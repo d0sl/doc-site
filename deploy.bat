@@ -8,7 +8,7 @@ git rm -r .
 cd ..
 
 rem Build the project. if using a theme, replace with `hugo -t <YOURTHEME>`
-./hugo -b https://d0sl.org -t learn
+hugo -b https://d0sl.org -t learn
 
 rem Go To Public folder
 cd public

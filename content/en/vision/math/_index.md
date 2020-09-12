@@ -16,6 +16,6 @@ So the idea behind **semantic modelling** is how to make it simpler for _non-pro
 {{% /notice  %}}
 
 
-Mathematical definition of \\( \Delta_0 \\)-formulas [here]({{< ref "/d0sl/delta0_math_def.md" >}}).  If you are interested in math theory behind please check this [list of articles] ({{< ref "/d0sl/articles.md" >}})
+Mathematical definition of \\( \Delta_0 \\)-formulas [here]({{< ref "/d0sl/delta0_math_def.md" >}}). If you are interested in math theory behind please check this [list of articles] ({{< ref "/vision/articles/_index.md" >}})
 
 
